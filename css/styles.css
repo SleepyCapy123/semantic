@@ -1,0 +1,54 @@
+.container {
+    border: 1px tomato solid;
+    width: 1000px;
+}
+
+aside,
+article,
+header,
+footer,
+nav,
+section {
+    border: 1px grey solid;
+    height: 50px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.content {
+    flex: 1;
+}
+
+aside {
+    width: 200px;
+    height: 152px;
+}
+
+header {
+    border-color: rgb(0, 110, 255);
+}
+
+nav {
+    border-color: greenyellow;
+}
+
+section {
+    border-color: orangered;
+}
+
+article {
+    border-color: rgb(0, 162, 255);
+}
+
+aside {
+    border-color: red;
+}
+
+footer {
+    border-color: blueviolet;
+}
